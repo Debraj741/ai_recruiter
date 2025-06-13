@@ -11,7 +11,7 @@ function Provider({ children }) {
                 <AuthProvider>
                     {children}
                 </AuthProvider>
-            </ConvexProvider>;
+            </ConvexProvider>
         </Suspense>
     )
 }
